@@ -171,6 +171,14 @@ footer div{
 	text-align:center;
 }
 /*Services web page*/
+/****800px*******/
+@media(max-width: 800px){
+
+}
 
 
 
+/*****500px*******/
+@media(max-width: 500px){
+    
+}
