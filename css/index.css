@@ -180,5 +180,20 @@ footer div{
 
 /*****500px*******/
 @media(max-width: 500px){
-    
+    nav{
+        flex-direction:column-reverse;
+        align-items:center;
+    }
+    header{
+        flex-direction: column;
+    }
+    .top-image{
+        display:none;
+    }
+    .top-content{
+        flex-direction:column;
+    }
+    .bottom-content{
+        flex-direction:column;
+    }
 }
