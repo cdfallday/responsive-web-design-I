@@ -173,7 +173,24 @@ footer div{
 /*Services web page*/
 /****800px*******/
 @media(max-width: 800px){
+    .logo{
 
+    }
+
+    header{
+        flex-direction:column;
+    }
+    .top-image{
+        display:none;
+    }
+    .top-content{
+        font-size:20%;
+        line-height: 1;
+	    word-spacing:1px;
+        display:flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        margin-bottom: 5%;
 }
 
 
